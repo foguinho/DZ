@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Travel Company</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Open+Sans:400,700|Roboto+Slab|Roboto:300,400,500,700" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Travel Company CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="colapse" data-target="menuPrincipal">
+                        <span class="sr-only">Ativar menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!-- menu mobile -->
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logoTravelCompany.png" alt="Travel Company">
+                    </a><!-- logo  -->
+                </div>
+                <div id="menuPrincipal" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown sobre active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sobre Nós <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Selecione Item 01</a></li>
+                                <li><a href="#">Ou Item 2</a></li>
+                                <li><a href="#">Selecione Esse</a></li>
+                                <li><a href="#">Ou Esse</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown destinos">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Destinos <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Destino 1</a></li>
+                                <li><a href="#">Destino 2</a></li>
+                                <li><a href="#">Destino 3</a></li>
+                                <li><a href="#">Destino 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown acomodacao">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Acomodações <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Acomodação 1</a></li>
+                                <li><a href="#">Acomodação 2</a></li>
+                                <li><a href="#">Acomodação 3</a></li>
+                                <li><a href="#">Acomodação 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contato <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Contato 1</a></li>
+                                <li><a href="#">Contato 2</a></li>
+                                <li><a href="#">Contato 3</a></li>
+                                <li><a href="#">Contato 4</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+        </nav>
+    </div><!-- cabeçalho -->
+
+   
+    <div id="carouselHome" class="carousel slide">
+        
+        <!-- Slides -->
+        <div class="carousel-inner">
+            
+            <div class="item active slide01">
+                <div class="carousel-caption">
+                    <h1 class="ttlSlider">Caros Amigos</h1>
+                    <p class="">
+                       O comprometimento entre as equipes não pode mais se dissociar dos índices pretendidos. Percebemos, cada vez mais, que o surgimento do comércio virtual causa impacto indireto na reavaliação das posturas.
+                    </p>
+                </div>
+            </div><!-- Slide 1 -->
+            
+            <div class="item slide02">
+                <div class="carousel-caption">
+                    <h1 class="ttlSlider">Melhores Destinos</h1>
+                    <p class="">
+                       Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de um processo de gestão de alternativas às soluções ortodoxas.
+                    </p>
+                </div>
+            </div><!-- Slide 2 -->
+            
+        </div>
+        
+        <!-- Controles -->
+        <a class="left carousel-control" href="#carouselHome" data-slide="prev">
+            <span class="slider-control slider-control-left"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+        <a class="right carousel-control" href="#carouselHome" data-slide="next">
+            <span class="slider-control slider-control-right"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        
+    </div><!-- Home Slider -->
+    
+    
+    <div class="container-fluid diagonal"></div> <!-- Fundo Diagonal -->
+    
+    <div class="container mainContent">
+        
+        <h2>O que você procura?</h2>
+        <hr class="ttlDecoration">
+        <div class="row casas">
+            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 casa">
+                        <img src="img/casa-de-campo.jpg" alt="Casa de Campo" class="img-circle center-block">
+                        <h3>Casa no Campo</h3>
+                        <p>Neste sentido, a mobilidade dos capitais internacionais acarreta um processo de reformulação e modernização.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 casa">
+                        <img src="img/casa-na-praia.jpg" alt="Casa na Praia" class="img-circle center-block">
+                        <h3>Casa na Praia</h3>
+                        <p>É importante questionar o quanto o surgimento do comércio virtual representa uma abertura.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 casa">
+                        <img src="img/casa-urbana.jpg" alt="Casa Urbana" class="img-circle center-block">
+                        <h3>Casa Urbana</h3>
+                        <p>O empenho em analisar o acompanhamento das preferências de consumo oferece uma interessante.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- O que você procura? -->
+        
+        <h2>Sobre nossas acomodações</h2>
+        <hr class="ttlDecoration altColor">
+        <div class="row acomodacoes">
+            <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                <h3>Sobre o Apartamento</h3>
+                <p class="text-justify">O que temos que ter sempre em mente é que a determinação clara de objetivos cumpre um papel essencial na formulação do sistema de participação geral. Percebemos, cada vez mais, que a consulta aos diversos militantes promove a alavancagem das novas proposições.</p>
+                <a class="btn btn-default" href="#" role="button">Saber Mais</a>
+            </div>
+            <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-0  col-xs-10 col-xs-offset-1">
+                <h3>Sobre a Casa</h3>
+                <p class="text-justify">As experiências acumuladas demonstram que a execução dos pontos do programa ainda não demonstrou convincentemente que vai participar na mudança das formas de ação. Desta maneira, a consulta aos diversos militantes promove a alavancagem de todos os recursos funcionais envolvidos.</p>
+                <a class="btn btn-default text-center" href="#" role="button">Saber Mais</a>
+            </div>  
+        </div><!-- Sobre nossas acomodações -->
+        
+    </div>
+    
+    <div class="container-fluid contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-6 col-offset-3 col-sm-6 col-sm-offset-3">
+                    <h2>Ficou Interessado</h2>
+                    <p>Preencha o formulário e entre em contato conosco!</p>
+                    <form id="contactForm" class="form-horizontal" data-toggle="validator" role="form">
+                        <div class="form-group">
+                            <label class="sr-only" for="nome">Nome:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">Nome:</span>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="e-mail">E-mail:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">E-mail:</span>
+                                <input type="email" class="form-control" id="e-mail" data-error="Por favor, preencha um e-mail válido." required>
+                            </div>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="telefone">Telefone:</label>
+                            <div class="input-group">
+                                <span class="input-group-addon">Telefone:</span>
+                                <input type="tel" class="form-control" id="telefone" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" for="mensagem">Mensagem:</label>
+                            <div class="input-group mensagem">
+                                <span class="input-group-addon lblMensagem">Mensagem:</span>
+                                <textarea class="form-control" id="mensagem" rows="10" required></textarea>
+                            </div>
+                        </div>
+                        <input class="btn btn-default" type="submit" value="Enviar">
+                        <div class="alert alert-success hidden msgEnviada" role="alert">Sua mensagem foi enviada com sucesso!</div>
+                    </form><!-- formulário -->
+                </div>
+            </div>
+        </div>
+    </div><!-- contato -->
+    
+    <div class="container-fluid rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <a class="social-link" href="#" target="_blank"><span class="fb social-icon"></span> Facebook</a> 
+                    <a class="social-link" href="#" target="_blank"><span class="ig social-icon"></span> Instagram</a>
+                    <a class="social-link" href="#" target="_blank"><span class="tt social-icon"></span> Twitter</a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <p class="text-right copyright">2016 © Travel Company. Todos os direitos reservados. <a class="dz" href="http://dzestudio.com.br/" target="_blank"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+                <p>Mensagem enviada com sucesso!</p>
+            </div>
+              <div class="col-md-6">
+                <p class="text-right"> <button type="button" class="close float-right" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></p>
+          </div>
+          </div>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#contactForm').validator().on('submit', function (e) {
+              if (e.isDefaultPrevented()) {
+                // handle the invalid form...
+              } else {
+                $('#myModal').modal('show')
+              }
+            })
+        });
+    </script>
+</body>
+
+</html>
